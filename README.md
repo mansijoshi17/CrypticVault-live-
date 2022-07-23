@@ -19,7 +19,7 @@
 
 ## It includes:
 
-**1) Log In with Admin and Member:** Admin can create token from login with admin which will be used for membership. and in login with member, member can login with admin address which will check that member have that admin's nft or not.
+**1) Sign In with Admin and Member:** Admin can create token from login with admin which will be used for membership. and in login with member, member can login with admin address which will check that member have that admin's nft or not.
 
 <img width="1440" alt="login" src="https://user-images.githubusercontent.com/54347081/180590440-5aef269d-1289-4edb-af1e-3d094333265b.png">
 
@@ -49,7 +49,7 @@
 
 https://github.com/mansijoshi17/CrypticVault-live-/blob/master/hardhat.config.js
 
-``require("dotenv").config({ path: "./.env" });
+```require("dotenv").config({ path: "./.env" });
 require("@nomiclabs/hardhat-waffle");
 
 const pk_1 = process.env.REACT_APP_PRIVATE_KEY;
@@ -64,7 +64,7 @@ accounts: [pk_1]
 },
 },
 };
-``
+```
 
 ### Contract on Polygon:
 

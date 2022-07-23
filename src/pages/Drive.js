@@ -37,7 +37,7 @@ function Drive() {
 
   async function onChange(e) {
     const data = e.target.files;
-
+    console.log(data);
     try {
       if (
         data[0].type == "application/pdf" ||
